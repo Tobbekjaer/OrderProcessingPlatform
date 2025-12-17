@@ -1,0 +1,133 @@
+## OrderProcessingPlatform .gitignore ##
+## Based on Dotnet.gitignore + IntelliJ + macOS additions ##
+
+# ========================================
+# OS & IDE specific
+# ========================================
+
+# macOS
+.DS_Store
+apps/**/.DS_Store
+**/.DS_Store
+
+# JetBrains Rider / IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Rider per-project settings (nested .idea)
+**/.idea/
+**/.idea/*
+
+# Visual Studio / VS Code
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ========================================
+# Build results
+# ========================================
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+[Bb]uild[Ll]og.*
+[Tt]est[Rr]esult*/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Rr]elease/
+[Rr]eleases/
+[Dd]ebug/
+[Dd]ebugPublic/
+[Ww][Ii][Nn]32/
+
+# .NET Core artifacts
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.binlog
+*.json
+*.bin
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+
+# Temporary files
+~$*
+*~
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Code coverage and testing
+CodeCoverage/
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+
+# ========================================
+# Local tooling caches
+# ========================================
+
+# Copilot / VS AI cache files
+.vs/bizcord/CopilotIndices/
+.vs/bizcord/v17/
+.vs/slnx.sqlite
+.vs/VSWorkspaceState.json
+.vs/bizcord/FileContentIndex/
+
+# Rider / IntelliJ per-app caches
+apps/**/.idea/
+apps/**/.idea/**
+
+# ========================================
+# Bizcord app-specific entries
+# ========================================
+
+# Ignore nested .idea folders created by JetBrains inside each app
+apps/api-gateway/.idea/
+apps/api-gateway/.idea/**
+
+apps/sample-microservice/.vs/sample-microservice/DesignTimeBuild/.dtbcache.v2
+
+# ========================================
+# Logs, temp, and generated data
+# ========================================
+*.log
+logs/
+tmp/
+temp/
+*.cache
+.cache/
+.DS_Store
+.DS_Store
+.DS_Store
+.DS_Store
+.DS_Store
+.DS_Store
+.DS_Store
+.DS_Store
+.DS_Store
+.DS_Store
+.DS_Store
+**/.DS_Store
+
+# ========================================
+# Exceptions (Allow these files)
+# ========================================
+!ocelot.*.json
+!appsettings.json
