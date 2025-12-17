@@ -1,0 +1,11 @@
+/Users/tobiaskjaer/Repoes/OrderProcessingPlatform/src/NotificationService/NotificationService.Domain/bin/Debug/net9.0/NotificationService.Domain.deps.json
+/Users/tobiaskjaer/Repoes/OrderProcessingPlatform/src/NotificationService/NotificationService.Domain/bin/Debug/net9.0/NotificationService.Domain.dll
+/Users/tobiaskjaer/Repoes/OrderProcessingPlatform/src/NotificationService/NotificationService.Domain/bin/Debug/net9.0/NotificationService.Domain.pdb
+/Users/tobiaskjaer/Repoes/OrderProcessingPlatform/src/NotificationService/NotificationService.Domain/obj/Debug/net9.0/NotificationService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tobiaskjaer/Repoes/OrderProcessingPlatform/src/NotificationService/NotificationService.Domain/obj/Debug/net9.0/NotificationService.Domain.AssemblyInfoInputs.cache
+/Users/tobiaskjaer/Repoes/OrderProcessingPlatform/src/NotificationService/NotificationService.Domain/obj/Debug/net9.0/NotificationService.Domain.AssemblyInfo.cs
+/Users/tobiaskjaer/Repoes/OrderProcessingPlatform/src/NotificationService/NotificationService.Domain/obj/Debug/net9.0/NotificationService.Domain.csproj.CoreCompileInputs.cache
+/Users/tobiaskjaer/Repoes/OrderProcessingPlatform/src/NotificationService/NotificationService.Domain/obj/Debug/net9.0/NotificationService.Domain.dll
+/Users/tobiaskjaer/Repoes/OrderProcessingPlatform/src/NotificationService/NotificationService.Domain/obj/Debug/net9.0/refint/NotificationService.Domain.dll
+/Users/tobiaskjaer/Repoes/OrderProcessingPlatform/src/NotificationService/NotificationService.Domain/obj/Debug/net9.0/NotificationService.Domain.pdb
+/Users/tobiaskjaer/Repoes/OrderProcessingPlatform/src/NotificationService/NotificationService.Domain/obj/Debug/net9.0/ref/NotificationService.Domain.dll

@@ -1,0 +1,11 @@
+/Users/tobiaskjaer/Repoes/OrderProcessingPlatform/src/OrderService/OrderService.Domain/bin/Debug/net9.0/OrderService.Domain.deps.json
+/Users/tobiaskjaer/Repoes/OrderProcessingPlatform/src/OrderService/OrderService.Domain/bin/Debug/net9.0/OrderService.Domain.dll
+/Users/tobiaskjaer/Repoes/OrderProcessingPlatform/src/OrderService/OrderService.Domain/bin/Debug/net9.0/OrderService.Domain.pdb
+/Users/tobiaskjaer/Repoes/OrderProcessingPlatform/src/OrderService/OrderService.Domain/obj/Debug/net9.0/OrderService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tobiaskjaer/Repoes/OrderProcessingPlatform/src/OrderService/OrderService.Domain/obj/Debug/net9.0/OrderService.Domain.AssemblyInfoInputs.cache
+/Users/tobiaskjaer/Repoes/OrderProcessingPlatform/src/OrderService/OrderService.Domain/obj/Debug/net9.0/OrderService.Domain.AssemblyInfo.cs
+/Users/tobiaskjaer/Repoes/OrderProcessingPlatform/src/OrderService/OrderService.Domain/obj/Debug/net9.0/OrderService.Domain.csproj.CoreCompileInputs.cache
+/Users/tobiaskjaer/Repoes/OrderProcessingPlatform/src/OrderService/OrderService.Domain/obj/Debug/net9.0/OrderService.Domain.dll
+/Users/tobiaskjaer/Repoes/OrderProcessingPlatform/src/OrderService/OrderService.Domain/obj/Debug/net9.0/refint/OrderService.Domain.dll
+/Users/tobiaskjaer/Repoes/OrderProcessingPlatform/src/OrderService/OrderService.Domain/obj/Debug/net9.0/OrderService.Domain.pdb
+/Users/tobiaskjaer/Repoes/OrderProcessingPlatform/src/OrderService/OrderService.Domain/obj/Debug/net9.0/ref/OrderService.Domain.dll
