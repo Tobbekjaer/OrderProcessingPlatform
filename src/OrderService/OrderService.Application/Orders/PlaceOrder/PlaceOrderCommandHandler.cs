@@ -50,6 +50,7 @@ public sealed class PlaceOrderCommandHandler
         bool reserved;
         try
         {
+            // 3) Reservér stock (synkront)
             reserved = await _inventory.ReserveAsync(order.Id.Value, lines, ct);
         }
         catch
@@ -63,7 +64,6 @@ public sealed class PlaceOrderCommandHandler
                 Error: "Inventory Service is currently unavailable."
             );
         }
-
         if (!reserved)
         {
             _logger.LogInformation("Not enough stock. OrderId={OrderId}", order.Id.Value);
@@ -75,10 +75,10 @@ public sealed class PlaceOrderCommandHandler
                 Error: "Not enough stock"
             );
         }
-
         order.MarkReserved();
         _logger.LogInformation("Inventory reserved. OrderId={OrderId}", order.Id.Value);
 
+        // 4) Gem ordre
         await _orders.AddAsync(order, ct);
 
         var @event = new OrderCompletedEvent(
@@ -87,8 +87,12 @@ public sealed class PlaceOrderCommandHandler
             TotalAmount: order.TotalAmount.value
         );
 
-        await _eventBus.PublishAsync("order.completed", @event, ct);
         _logger.LogInformation("Publishing event order.completed. OrderId={OrderId}", order.Id.Value);
+        
+        // 5) Publicér order.completed event (asynkront)
+        await _eventBus.PublishAsync("order.completed", @event, ct);
+        
+        _logger.LogInformation("Event published order.completed. OrderId={OrderId}", order.Id.Value);
 
         order.MarkCompleted();
         return new PlaceOrderResult(true, OrderId: order.Id.Value);
