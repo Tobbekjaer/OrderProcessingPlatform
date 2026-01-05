@@ -68,7 +68,7 @@ var breaker = HttpPolicyExtensions
         onHalfOpen: () => pollyLogger.LogWarning("CIRCUIT HALF-OPEN")
     );
 
-// HttpClient
+// HttpClient resiliency
 builder.Services
     .AddHttpClient<IInventoryClient, InventoryClient>(client =>
     {
